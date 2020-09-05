@@ -41,7 +41,7 @@ Exemplo de resposta:
 ### POST /auth
 Esse endpoint é responsável por fazer o processo de login.
 #### Parâmetros
-Email: E-mail do usuário cadastrado no sitema.<br>
+email: E-mail do usuário cadastrado no sitema.<br>
 password: Senha do usuário cadastrado no sistema.<br>
 Exemplo:
 ```
