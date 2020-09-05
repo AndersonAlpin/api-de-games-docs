@@ -7,7 +7,7 @@ Esse endpoint é responsável por retornar a listagem de todos os games cadastra
 Nenhum.
 #### Respostas
 ##### OK! 200
-<p>Caso essa resposta aconteça, você vai receber a listagem de todos os games.
+Caso essa resposta aconteça, você vai receber a listagem de todos os games.<br>
 Exemplo de resposta:
 ```
 [
@@ -30,7 +30,7 @@ Exemplo de resposta:
 ]
 ```
 ##### Falha na autenticação! 401
-Caso essa resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: E-mail ou senha inválidos.
+Caso essa resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: E-mail ou senha inválidos.<br>
 Exemplo de resposta:
 ```
 {
@@ -41,8 +41,8 @@ Exemplo de resposta:
 ### POST /auth
 Esse endpoint é responsável por fazer o processo de login.
 #### Parâmetros
-Email: E-mail do usuário cadastrado no sitema.
-password: Senha do usuário cadastrado no sistema.
+Email: E-mail do usuário cadastrado no sitema.<br>
+password: Senha do usuário cadastrado no sistema.<br>
 Exemplo:
 ```
 {
@@ -52,7 +52,7 @@ Exemplo:
 ```
 #### Respostas
 ##### OK! 200
-Caso essa resposta aconteça, você vai receber o token JWT para ter acesso aos endpoints protegidos pela API.
+Caso essa resposta aconteça, você vai receber o token JWT para ter acesso aos endpoints protegidos pela API.<br>
 Exemplo de resposta:
 ```
 {
@@ -60,7 +60,7 @@ Exemplo de resposta:
 }
 ```
 ##### Falha na autenticação! 401
-Caso essa resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivo: Token inválido / Token expirado.
+Caso essa resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivo: Token inválido / Token expirado.<br>
 Exemplo de resposta:
 ```
 {
