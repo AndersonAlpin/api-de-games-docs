@@ -13,7 +13,7 @@ Exemplo de resposta:
 [
     {
         "id": 5,
-        "title": "Grand Chase Prime",
+        "title": "GTA V",
         "price": 120,
         "year": 2006,
         "createdAt": "2020-09-03T21:40:08.000Z",
